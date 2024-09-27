@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bini.xsl"?>
+
+<college>
+<student>
+<rollno>1</rollno>
+<name>Bob Dylan</name>
+<class>BCA</class>
+<percentage>37</percentage>
+</student>
+<student>
+ <rollno>2</rollno>
+ <name>Bibek piya</name> 
+ <class>BCA</class>
+ <percentage>98</percentage>
+ </student>
+<student>
+ <rollno>3</rollno>
+ <name>sabin pandey</name>
+ <class>BCA</class>
+ <percentage>78</percentage>
+ </student>
+ <student>
+ <rollno>4</rollno>
+ <name>raju kandel</name>
+ <class>BCA</class>
+ <percentage>38</percentage>
+ </student>
+ <student>
+ <rollno>5</rollno>
+ <name>saroj adhikari</name>
+ <class>BCA</class>
+ <percentage>45</percentage>
+ </student>
+ <student>
+ <rollno>6</rollno>
+ <name>david sharma</name>
+ <class>BCA</class>
+ <percentage>32</percentage>
+ </student>
+</college>

@@ -1,0 +1,15 @@
+<!DOCTYPE College [
+<!ELEMENT College (Student+)>
+<!ELEMENT Student (name, address, roll, phone+)>
+<!ELEMENT name (first, middle?, last)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT middle (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
+<!ELEMENT address (street, city?, state)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT roll (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST state Zipcode CDATA #REQUIRED>
+]>

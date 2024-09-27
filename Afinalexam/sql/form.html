@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="insert.php" method="post">
+        <label for="">Studentid:</label>
+        <input type="number" name="id" ><br>
+        <label for="">StudentName:</label>
+        <input type="text" name="name" ><br>
+        <label for="">StudentAddress:</label>
+        <input type="text" name="address" ><br>
+        <label for="">Phone number:</label>
+        <input type="number" name="phone" ><br>
+        <label for="">Email:</label>
+        <input type="text" name="email" ><br>
+        <label for="">Gender:</label>
+        <input type="radio" name="gender"  value="Male"> Male
+        <input type="radio" name="gender"  value="Female"> Female
+        <input type="radio" name="gender"  value="Other"> Other
+ <br>
+        <label for="">Course:</label>
+        <select name="course" id="">
+            <option value="BIM">BIM</option>
+            <option value="BCA">BCA</option>
+            <option value="BHM">BHM</option>
+        </select>
+        <br>
+        <label for="">Interest:</label>
+        <input type="checkbox" name="interest"  value="Dancing"> Dancing
+        <input type="checkbox" name="interest"  value="teaching"> Teaching
+        <input type="checkbox" name="interest"  value="Laughing"> Laughing
+<br>
+<button type="submit" name="send">Send</button>
+
+
+    </form>
+
+</body>
+</html>

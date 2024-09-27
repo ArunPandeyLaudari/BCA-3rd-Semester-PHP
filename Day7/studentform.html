@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student From</title>
+</head>
+<body>
+    <form action="studentreceive.php" method="post">
+        <label for="stdname">Student Name:</label><br>
+        <input type="text" id="stdname" name="stdname" required>
+        <label for="stdroll">Student RollNumber:</label><br>
+        <input type="number" id="stdroll" name="stdroll" >
+        <label for="gender">Gender</label><br>
+        <input type="radio" name="Gender" id="gender" value="male">male
+        <input type="radio" name="Gender" id="gender" value="female">female <br>
+        <select name="course">Course:
+            <option value="BCA" name="BCA">BCA</option>
+            <option value="BsIT" name="BsIT">BsIT</option>
+            <option value="BIM" name="BIM">BIM</option>
+        </select><br>
+        <label for="stdphn">Student Phonenumber:</label><br>
+        <input type="number" value="stdphn" name="stdphn">
+        <label for="stdmail">Student Email:</label><br>
+        <input type="email" name="stdmail" id="stdmail">
+
+        <input type="submit" value="save" name="save">&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="cancel" name="cancel">
+
+    </form>
+</body>
+</html>

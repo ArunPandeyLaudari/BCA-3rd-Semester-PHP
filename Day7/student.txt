@@ -1,0 +1,6 @@
+Arun Pandey,1,male,BCA,9802973937,arpa_bca2079@lict.edu.np
+BinishaPandey,2,female,BCA,9802973937,arpa_bca2079@lict.edu.np
+ArshaaPandey,3,female,BCA,9802973937,arpa_bca2079@lict.edu.np
+Arbin Pandey,4,male,BCA,9802973937,arpa_bca2079@lict.edu.np
+,,,BCA,,
+,,,BIM,,

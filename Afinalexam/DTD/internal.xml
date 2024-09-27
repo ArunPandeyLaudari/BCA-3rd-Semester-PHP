@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <!DOCTYPE College [
+<!ELEMENT College (Student+)>
+<!ELEMENT Student (name, address, roll, phone+)>
+<!ELEMENT name (first, middle?, last)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT middle (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
+<!ELEMENT address (street, city?, state)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT roll (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST state Zipcode CDATA #REQUIRED>
+]> -->
+<!DOCTYPE College SYSTEM "external.dtd">
+<College>
+  <Student>
+    <name>
+      <first>Binisha</first>
+      <middle></middle>
+      <last>Chapagain</last>
+    </name>
+    <address>
+      <street>asdf</street>
+      <city>fgh</city>
+      <state Zipcode="1123">dfgh</state>
+    </address>
+    <roll>12</roll>
+    <phone>12345678</phone>
+  </Student>
+  
+  <Student>
+    <name>
+      <first>John</first>
+      <middle>Michael</middle>
+      <last>Doe</last>
+    </name>
+    <address>
+      <street>123 Elm St</street>
+      <city>Springfield</city>
+      <state Zipcode="12345">IL</state>
+    </address>
+    <roll>34</roll>
+    <phone>87654321</phone>
+  </Student>
+  
+  <Student>
+    <name>
+      <first>Jane</first>
+      <middle>Ann</middle>
+      <last>Smith</last>
+    </name>
+    <address>
+      <street>456 Oak St</street>
+      <city>Metropolis</city>
+      <state Zipcode="67890">NY</state>
+    </address>
+    <roll>56</roll>
+    <phone>23456789</phone>
+  </Student>
+</College>
